@@ -1,0 +1,38 @@
+[
+  {
+    "id": "req_999",
+    "equipmentId": "eq_1",
+    "equipmentName": "Bosch Drill",
+    "originalCategory": "electrical-tools",
+    "mappedMLCategory": "Pipe pressing machine",
+    "status": "Borrowed",
+    "startDate": "2026-11-13T10:00:00",
+    "endDate": "2026-11-14T10:00:00",
+    "fee": 70.0,
+    "ingestedAt": "2026-11-13T04:45:05.918984"
+  },
+  {
+    "id": "req-1731470000",
+    "equipmentId": "eq-1",
+    "equipmentName": "Bosch Impact Drill 650W",
+    "originalCategory": "Electrical Tools",
+    "mappedMLCategory": "Pipe pressing machine",
+    "status": "APPROVED",
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-14",
+    "fee": 350.0,
+    "ingestedAt": "2026-11-13T05:00:10.499847"
+  },
+  {
+    "id": "req_102",
+    "equipmentId": "eq_1",
+    "equipmentName": "Bosch GSB 550 Freedom Impact Drill Kit",
+    "originalCategory": "electrical-tools",
+    "mappedMLCategory": "Pipe pressing machine",
+    "status": "Accepted",
+    "startDate": "2026-11-10T14:00:00",
+    "endDate": "2026-11-10T17:00:00",
+    "fee": 105.0,
+    "ingestedAt": "2026-11-16T03:38:31.096751"
+  }
+]

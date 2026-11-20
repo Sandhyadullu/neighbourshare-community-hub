@@ -1,0 +1,22 @@
+{
+    "project": "NeighbourShare",
+    "model": "Random Forest Regressor",
+    "target": "Daily equipment rental demand",
+    "features": [
+        "Category",
+        "Day_of_Week",
+        "Month",
+        "Day_of_Year",
+        "Is_Weekend",
+        "Lag_1",
+        "Lag_7",
+        "Lag_14",
+        "Lag_28",
+        "Rolling_Mean_7",
+        "Rolling_Mean_28"
+    ],
+    "MAE": 1.1652278038642243,
+    "RMSE": 1.9368894043522453,
+    "R2": 0.5108964946773895,
+    "sklearn_version": "1.6.1"
+}

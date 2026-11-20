@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Python Virtual Environments
+ai_service/.venv/
+ai_service/venv/
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Production Build Output
+dist/
+dist-ssr/
+build/
+*.local
+
+# Environment & Secret Files (Protect API keys and credentials)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.p12
+
+# Logs & Temporary Files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tmp
+*.temp
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Explicitly ensure AI models, datasets and configs are NOT ignored
+!ai_service/neighbourshare_demand_model.joblib
+!ai_service/neighbourshare_demand_history.csv
+!ai_service/model_metadata.json
+!ai_service/live_borrowing_demand.json
+!ai_service/requirements.txt
+!ai_service/app.py
